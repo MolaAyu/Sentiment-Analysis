@@ -1,0 +1,22 @@
+﻿Implementing linear classifiers for Sentiment analysis
+In this project, we will implement two algorithms to train classifiers: support vector classification and logistic regression. 
+The pedagogical objectives of this assignment are that you should 
+* Get some experience of the practical considerations of implementing machine learning algorithms
+* Understand SVC and LR more thoroughly
+* Get a taste of how a typical academic paper in machine learning looks
+The task here is to determine whether a product review is positive or negative. The program trains a classifier using our perceptron implementation and then evaluates the classifier on a test set. 
+
+
+Part 1
+Implementing the SVC
+* Implement the Pegasos algorithm for training support vector classifiers
+* Find a good value for the regularization parameter λ and the number of training steps. For instance, In my experiments, I iterated 10 times through the training set and set λ to 1/N, where N is the number of instances in the training set. 
+Logistic regression LR
+* Apply difference loss function: the SVC uses the hinge loss and LR the log loss.
+Part 2
+Task 1. Multiclass classification
+We will see how we can make your classifiers work in a situation where we have more than two possible output classes.
+(a) Binarizing the multiclass problem
+* Scikit-learn contains two utility classes that can help you convert multiclass classification tasks into a set of binary tasks: OneVsRestClassifier and OneVsOneClassifier. 
+(b) Natively multiclass learning algorithms
+* implement multiclass SVM and LR
