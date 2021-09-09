@@ -1,6 +1,6 @@
 # Sentiment-Analysis
 
-Implementing linear classifiers for Sentiment analysis
+# Implementing linear classifiers for Sentiment analysis
 In this project, we will implement two algorithms to train classifiers: support vector classification and logistic regression. 
 The pedagogical objectives of this assignment are that you should 
 * Get some experience of the practical considerations of implementing machine learning algorithms
